@@ -5,7 +5,7 @@ import NewTodoPage from "../pages/NewTodoPage";
 import TodoPage from "../pages/TodoPage";
 
 test.describe("todo test", () => {
-  test("should to be able to add a todo", async ({
+  test("sign in using API, and add todo, and make sure its added", async ({
     page,
     request,
     context,
@@ -25,7 +25,7 @@ test.describe("todo test", () => {
     // await expect(todoitems).toHaveCSS("background-color", "rgb(33, 76, 97)");
   });
 
-  test("should to be able to add a new todo", async ({
+  test("sign in using API, and add a new todo using API, and delete it, and make sure its deleted", async ({
     page,
     request,
     context,

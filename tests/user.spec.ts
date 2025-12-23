@@ -3,7 +3,7 @@ import User from "../models/User";
 import RegiserPage from "../pages/RegisterPage";
 import TodoPage from "../pages/TodoPage";
 
-test.describe("should be able to register to the todo website", () => {
+test.describe("should be able to register to the todo website and see the welcomeMassege", () => {
   test("sign up test", async ({ page }) => {
     let user = new User();
     let regiserPage = new RegiserPage(page);
